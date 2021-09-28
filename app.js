@@ -5,7 +5,7 @@ var outputText = document.querySelector("#output-text");
 var url = "https://api.funtranslations.com/translate/minion.json";
 
 function clickListner() {
-    if (inputText.value === "") {
+    if (inputText.value.trim() === "") {
         outputText.innerText = "Please enter some text.";
     } else {
         var customUrl = url + "?text=" + inputText.value;
