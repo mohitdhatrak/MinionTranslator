@@ -59,6 +59,7 @@ body {
     margin: 2rem auto;
     border: 1px solid black;
     width: 31.25rem;
+    min-height: 9rem;
     max-width: 80%;
     padding: 1rem 1.5rem;
     font-size: 1rem;
